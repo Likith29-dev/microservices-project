@@ -143,7 +143,7 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
       - name: server
-        image: nothing2aplus/recommendationservice:latest
+        image: nothing2aplus/productcatalogservice:latest
         ports:
         - containerPort: 8080
         readinessProbe:
